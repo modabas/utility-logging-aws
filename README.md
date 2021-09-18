@@ -1,4 +1,4 @@
-# .NET Core ILogger implemetation for AWS CloudWatch Logs
+# .NET Core ILogger implementation for AWS CloudWatch Logs
 
 This repository contains ILogger and ILoggerProvider implementation of Microsoft.Extensions.Logging for AWS CloudWatch Logs that supports scopes and structured logging.
 By default, log format is Json, however it's possible to create other formats with custom ILogRenderer implementations for AwsLoggerProvider.
