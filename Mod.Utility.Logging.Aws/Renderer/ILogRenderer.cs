@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Logging;
-using Mod.Utility.Logging.Aws.Core;
+﻿using System.Collections.Generic;
 
 namespace Mod.Utility.Logging.Aws.Renderer
 {

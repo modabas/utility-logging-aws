@@ -1,10 +1,10 @@
-﻿namespace Mod.Utility.Logging.Aws.Core
-{
-    using System;
-    using System.ComponentModel;
-    using System.Globalization;
-    using System.Threading;
+﻿using System;
+using System.ComponentModel;
+using System.Globalization;
+using System.Threading;
 
+namespace Mod.Utility.Logging.Aws.Core
+{
     /// <summary>
     /// Provides a set of extension methods for tracing.
     /// </summary>

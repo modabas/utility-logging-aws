@@ -4,11 +4,10 @@
 // All rights reserved.  2013
 // </copyright>
 // -----------------------------------------------------------------------
+using System;
 
 namespace Mod.Utility.Logging.Aws
 {
-    using System;
-
     /// <summary>
     /// An empty scope without any logic.
     /// </summary>

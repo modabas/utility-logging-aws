@@ -1,8 +1,6 @@
 ﻿using Newtonsoft.Json;
 using System;
-using System.Collections.Generic;
 using System.Net;
-using System.Text;
 
 namespace Mod.Utility.Logging.Aws.Converters
 {

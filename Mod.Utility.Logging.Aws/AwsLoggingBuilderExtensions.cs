@@ -1,15 +1,13 @@
-﻿namespace Microsoft.Extensions.Logging
-{
-    using System;
-    using Microsoft.Extensions.DependencyInjection;
-    using Microsoft.Extensions.DependencyInjection.Extensions;
-    using Mod.Utility.Logging.Aws;
-    using Mod.Utility.Logging.Aws.Converters;
-    using Mod.Utility.Logging.Aws.Core;
-    using Mod.Utility.Logging.Aws.Renderer;
-    using Newtonsoft.Json;
-    using Newtonsoft.Json.Converters;
+﻿using System;
+using Mod.Utility.Logging.Aws;
+using Mod.Utility.Logging.Aws.Converters;
+using Mod.Utility.Logging.Aws.Core;
+using Mod.Utility.Logging.Aws.Renderer;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Converters;
 
+namespace Microsoft.Extensions.Logging
+{
     /// <summary>
     /// Extensions methods to add and configure AWS logger.
     /// </summary>

@@ -1,11 +1,10 @@
-﻿namespace Mod.Utility.Logging.Aws
-{
-    using System;
-    using Mod.Utility.Logging.Aws.Core;
-    using Microsoft.Extensions.Options;
-    using Microsoft.Extensions.Logging;
-    using Mod.Utility.Logging.Aws.Renderer;
+﻿using System;
+using Mod.Utility.Logging.Aws.Core;
+using Microsoft.Extensions.Logging;
+using Mod.Utility.Logging.Aws.Renderer;
 
+namespace Mod.Utility.Logging.Aws
+{
     /// <summary>
     /// AWS logger provider.
     /// </summary>

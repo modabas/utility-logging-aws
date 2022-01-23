@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Mod.Utility.Logging.Aws.Renderer
+﻿namespace Mod.Utility.Logging.Aws.Renderer
 {
     public class RendererConstants
     {

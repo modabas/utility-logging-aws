@@ -1,6 +1,6 @@
 ﻿using System;
-
 using Amazon.Runtime;
+
 namespace Mod.Utility.Logging.Aws.Core
 {
     /// <summary>

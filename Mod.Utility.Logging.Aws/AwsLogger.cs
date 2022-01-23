@@ -1,13 +1,13 @@
-﻿namespace Mod.Utility.Logging.Aws
-{
-    using System;
-    using System.Collections.Generic;
-    using System.Globalization;
-    using System.Text;
-    using Microsoft.Extensions.Logging;
-    using Mod.Utility.Logging.Aws.Core;
-    using Mod.Utility.Logging.Aws.Renderer;
+﻿using System;
+using System.Collections.Generic;
+using System.Globalization;
+using System.Text;
+using Microsoft.Extensions.Logging;
+using Mod.Utility.Logging.Aws.Core;
+using Mod.Utility.Logging.Aws.Renderer;
 
+namespace Mod.Utility.Logging.Aws
+{
     /// <summary>
     /// AWS logger implementation for <see cref="ILogger"/>.
     /// </summary>
