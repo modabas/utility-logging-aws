@@ -12,6 +12,7 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Authors>Melih Odabaş</Authors>
     <Version>1.0.1</Version>
+	<Description>.Net ILogger and ILoggerProvider implementation of Microsoft.Extensions.Logging for AWS CloudWatch Logs that supports scopes and structured logging.</Description>
   </PropertyGroup>
 
   <ItemGroup>
