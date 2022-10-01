@@ -9,10 +9,9 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <Authors>Melih Odabaş</Authors>
-    <Version>1.0.1</Version>
-	<Description>.Net ILogger and ILoggerProvider implementation of Microsoft.Extensions.Logging for AWS CloudWatch Logs that supports scopes and structured logging.</Description>
+    <Description>.Net ILogger and ILoggerProvider implementation of Microsoft.Extensions.Logging for AWS CloudWatch Logs that supports scopes and structured logging.</Description>
   </PropertyGroup>
 
   <ItemGroup>
@@ -20,6 +19,10 @@
     <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="6.0.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="6.0.0" />
     <PackageReference Include="Microsoft.Extensions.Logging" Version="6.0.0" />
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
   </ItemGroup>
 
